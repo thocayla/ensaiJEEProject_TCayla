@@ -5,7 +5,7 @@
 
 1. Excute in a terminal mvn clean install from the project.
 
-2. Import in Eclipse or in IntelliJ.
+2. Import the project in Eclipse or in IntelliJ.
 
 3. To start the database server, just type in a terminal ./runServer.sh from this project.
 
