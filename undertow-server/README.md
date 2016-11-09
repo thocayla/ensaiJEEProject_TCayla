@@ -9,7 +9,7 @@
 
 3. To start the database server, just type in a terminal ./runServer.sh from this project.
 
-4. Run the class ServletServer.java
+4. Run the class ServletServer.java, which is in undertow-server/src/main/java/com/undertow/
 
 5. Then in your favorite browser and type http://localhost:8080/myapp/index.html
    From this html web page, you can enter your name, your email address, the name of your R program, and the code of your R program.
