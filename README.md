@@ -42,7 +42,7 @@
 	And to insert a person from your terminal:
 	curl -H "Content-Type: application/json" -X POST -d '{"name":"test","firstName":"t"}' http://localhost:8081/status/person
   
- 10. I add an other html page accessing on http://localhost:8080/myapp/comments.html where you can send a commentary
+10. I add an other html page accessing on http://localhost:8080/myapp/comments.html where you can send a commentary
 
 11. There is also the logo of ensai that you can load at http://localhost:8080/myapp/picture/ensai.png
 
