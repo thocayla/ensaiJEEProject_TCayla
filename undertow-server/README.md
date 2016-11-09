@@ -11,8 +11,9 @@
 
 4. Run the class ServletServer.java, which is in undertow-server/src/main/java/com/undertow/
 
-5. Then in your favorite browser and type http://localhost:8080/myapp/index.html
+5. Then go in your favorite browser and type http://localhost:8080/myapp/index.html
    From this html web page, you can enter your name, your email address, the name of your R program, and the code of your R program.
+   I integrated here a CodeMirror Editor to improve the quality of my Web Client Application.
    
    For example, you can write the following code :
    
@@ -36,7 +37,7 @@
    
    SELECT * FROM RProgram
    
-9. I tried then to add a JaxRS stack in order to provide a restful webservice API for machine to machine to allow another application to execute an R script on my server and get the results but I failed to correct my mistakes and I haven't had enough time to fix it. So I add an other JaxRS stack to show you the concept of this language. 
+9. I tried then to add a JaxRS stack in order to provide a restful webservice API for machine to machine to allow another application to execute an R script on my server and get the results but I failed to correct my mistakes and I haven't had enough time to fix it. So I added an other JaxRS stack to show you the concept of this language. 
 	Note that I changed here the logical port from 8080 to 8081.
 	
 	Go to http://localhost:8081/status/test it says you "hello”.
@@ -52,7 +53,7 @@
 	curl -H "Content-Type: application/json" -X POST -d '{"name":"test","firstName":"t"}' http://localhost:8081/status/person
 	
   
-10. I add an other html page accessing on http://localhost:8080/myapp/comments.html where you can send a commentary
+10. I added an other html page accessing on http://localhost:8080/myapp/comments.html where you can send a commentary
 
 11. There is also the logo of ensai that you can load at http://localhost:8080/myapp/picture/ensai.png
 
