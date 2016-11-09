@@ -37,7 +37,6 @@
    SELECT * FROM RProgram
    
 9. I tried then to add a JaxRS stack in order to provide a restful webservice API for machine to machine to allow another application to execute an R script on my server and get the results but I failed to correct my mistakes and I haven't had enough time to fix it. So I add an other JaxRS stack to show you the concept of this language. 
-
 	Note that I change the logical port from 8080 to 8081.
 	
 	Go to http://localhost:8081/status/test it says you "hello”.
