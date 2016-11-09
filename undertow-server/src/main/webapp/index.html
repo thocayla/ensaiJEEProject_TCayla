@@ -1,0 +1,30 @@
+<html>
+<head>
+	<script src="bower_components/codemirror/lib/codemirror.js"></script>
+	<link rel="stylesheet" href="bower_components/codemirror/lib/codemirror.css">
+	<script src="bower_components/codemirror/mode/r/r.js"></script>
+</head>
+<body>
+	<FORM Method="POST" Action="/myapp/rservlet">
+		Author Name: <INPUT type=text size=30 name="authorname"><BR>
+		Email Address: <INPUT type=text size=30 name="email"><BR>
+		R Program Name: <INPUT type=text size=30 name="name"><BR>
+		<BR>
+		R Program: <textarea id="myTextArea" name="program" cols="40" rows="60"></textarea>
+		<BR>
+		<script type="text/javascript">
+			window.onload = function(){
+				var myTextArea = document.getElementById("myTextArea");
+				editor = CodeMirror.fromTextArea(myTextArea, {
+						lineNumbers: true,
+						mode: "r"
+				});
+			};
+		</script>
+		<BR>
+		<INPUT type="submit"
+			value="Run">
+	</FORM>
+			<button onclick="window.location.href='/myapp/load'">Save</button>
+</body>
+</html>
