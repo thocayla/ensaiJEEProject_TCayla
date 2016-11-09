@@ -11,7 +11,7 @@
 
 4. Run the class ServletServer.java, which is in undertow-server/src/main/java/com/undertow/
 
-5. Then in your favorite browser and type http://localhost:8080/myapp/index.html
+5. Then go in your favorite browser and type http://localhost:8080/myapp/index.html
    From this html web page, you can enter your name, your email address, the name of your R program, and the code of your R program.
    
    For example, you can write the following code :
