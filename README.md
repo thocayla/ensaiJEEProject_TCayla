@@ -40,7 +40,8 @@
 	Note that I change the logical port from 8080 to 8081.
 	
 	Go to http://localhost:8081/status/test it says you "hello”.
-	And http://localhost:8081/status/person 
+	
+	And to http://localhost:8081/status/person 
 	
 	You can test the service using to get a person from your terminal:
 	
@@ -49,6 +50,7 @@
 	And to insert a person from your terminal:
 	
 	curl -H "Content-Type: application/json" -X POST -d '{"name":"test","firstName":"t"}' http://localhost:8081/status/person
+	
 	
   
 10. I add an other html page accessing on http://localhost:8080/myapp/comments.html where you can send a commentary
